@@ -1,7 +1,7 @@
 ---
-title: "This is such a long headline and i dont know what to write so i keep continiung"
+title: "Coming soon..."
 date: "2019-03-17"
-draft: false
+draft: true
 path: "/blog/example-title"
 ---
 # H1
