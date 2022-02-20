@@ -1,4 +1,4 @@
-FROM node:12 as react-build
+FROM node:14-bullseye as react-build
 WORKDIR /app 
 
 # COPY the package.json file, update any deps and install them
