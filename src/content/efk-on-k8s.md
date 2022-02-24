@@ -8,7 +8,13 @@ path: "/blog/efk-on-k8s"
 This blog shows how to deploy [Opendistro Elasticsearch](https://opendistro.github.io/for-elasticsearch-docs/)
 and [Fluentbit](https://fluentbit.io/) on on-prem Kubernetes cluster.
 
-### Opendistro ES Helm chart
+## Opendistro ES Helm chart
+
+Clone the intial config git repository.
+```bash
+git clone git@gitlab.developers.cam.ac.uk:wh330/efk-stack.git
+```
+
 Create a namespace for the deployment.
 ```bash
 kubectl create namespace kube-logging
